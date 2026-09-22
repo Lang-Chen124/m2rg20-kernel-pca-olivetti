@@ -1,4 +1,3 @@
-[README (1).md](https://github.com/user-attachments/files/32502286/README.1.md)
 # Kernel PCA on Olivetti Faces — M2RG20 Group Coursework
 
 This repository presents the **Olivetti Faces experiments from our M2RG20 Kernel Method group coursework, completed in June 2026 at Imperial College London**. It explores how different kernels affect dimensionality reduction, face classification, and image reconstruction.
