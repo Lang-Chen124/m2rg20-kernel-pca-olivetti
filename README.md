@@ -2,7 +2,7 @@
 
 This repository presents the **Olivetti Faces experiments from our M2RG20 Kernel Method group coursework, completed in June 2026 at Imperial College London**. It explores how different kernels affect dimensionality reduction, face classification, and image reconstruction.
 
-This focused repository is maintained by Nathan Chen, whose contribution to the group project centred on Kernel PCA. It retains the collaborative context of the original coursework and credits the group contributors for their work.
+This focused repository is maintained by Lang Chen and Qasim Salahuddin, whose contribution to the group project centred on Kernel PCA. It retains the collaborative context of the original coursework and credits the group contributors for their work.
 
 **Original group repository:** [Deuter1um/M2RG20-Kernel-Method](https://github.com/Deuter1um/M2RG20-Kernel-Method)
 
