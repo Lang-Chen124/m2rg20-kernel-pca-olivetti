@@ -51,7 +51,7 @@ The following classification accuracies are taken from the original notebook's s
 | Sigmoid Kernel PCA | 86.2% |
 | Cosine Kernel PCA | 86.2% |
 
-These results describe one split of a small dataset. They do not establish that Kernel PCA consistently outperforms linear PCA. With 80 test images, one additional correct prediction changes accuracy by 1.25 percentage points. The numbers above have not been independently rerun for this repository draft.
+These results describe one split of a small dataset. They do not establish that Kernel PCA consistently outperforms linear PCA. With 80 test images, one additional correct prediction changes accuracy by 1.25 percentage points. The numbers above are transcribed from the saved outputs in the coursework notebook; they have not been independently rerun for this repository.
 
 ## Running the notebook
 
@@ -60,7 +60,7 @@ Create a Python virtual environment and install the notebook dependencies:
 ```bash
 python -m venv .venv
 source .venv/bin/activate
-python -m pip install numpy scipy matplotlib scikit-learn jupyterlab
+python -m pip install -r requirements.txt
 python -m jupyterlab
 ```
 
@@ -74,6 +74,8 @@ Open `notebooks/olivetti_kernel_pca.ipynb` and run the cells in order. Grid sear
 | --- | --- |
 | `notebooks/olivetti_kernel_pca.ipynb` | Main Olivetti experiment and analysis |
 | `README.md` | Project background, methods, and running instructions |
+| `requirements.txt` | Python dependencies for running the notebook |
+| `.gitignore` | Excludes local environments and notebook caches |
 
 The notebook is adapted from `kernel_pca_olivetti .ipynb` in the original group repository. Experiments involving MNIST, COIL-20, and financial market data are outside the scope of this repository.
 
